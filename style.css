@@ -1,0 +1,282 @@
+@media screen and (max-width:600px){
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
+    *{
+        padding:0;
+        margin:o; 
+    }
+    .homepage{
+        height: 717px;
+        width:100%;
+        background:rgb(78, 71, 71);
+        position:fixed;
+        top:0;
+        left:0px;
+        right:0px;
+        z-index: 3;
+    }
+    .homeimg{
+        width:100%;
+        object-fit:cover;
+    }
+    .tag{
+        position:absolute;
+        left:12px;
+        top:200px;
+        font-size:47px;
+        color:rgb(250, 247, 224);
+        font-family: "Abril Fatface", serif;
+    }
+    .tag span{
+        color:green;
+    }
+    .dis{
+        position:absolute;
+        top:350px;
+        left:20px;
+        color:rgb(241, 220, 175);
+        font-size:32px;
+        font-family: "Allura", cursive;
+    }
+    .contact{
+        position:absolute;
+        bottom:130px;
+        left:12px;
+        font-size:20px;
+        vertical-align:middle;
+        padding-left:6px;
+        padding-right: 6px;
+        border-radius: 15px;
+        border:1px solid rgb(206, 191, 155);
+        background-color:transparent;
+        color:rgb(206, 191, 155);
+        font-weight:bold;
+        padding-bottom:4px;
+        transition:0.3s ease;  
+    }
+    .contact:hover{
+        background-color:rgb(206, 191, 155);
+        color:rgb(0, 0, 0);
+    }
+    .about{
+        position:absolute;
+        bottom:130px;
+        left:132px;
+        font-size:20px;
+        padding-left:6px;
+        padding-right: 6px;
+        border-radius: 15px;
+        border:1px solid rgb(206, 191, 155);
+        background-color:rgb(206, 191, 155);
+        color:rgb(0, 0, 0);
+        font-weight:bold;
+        padding-bottom:4px;
+        transition:0.3s ease;
+    }
+    .about:hover{
+        background-color:transparent;
+        color:rgb(206, 191, 155);
+    }
+    
+    .contactuspage{
+        visibility:hidden;
+        position:absolute;
+        top:0;
+        left:0;
+        height:100%;
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        gap:20px;
+        background-color: rgb(235, 231, 225);
+    }
+    .n{
+        visibility:visible;
+    }
+    .contactuspage .con-us{
+        padding-left:20px;
+        font-size:45px;
+        color:rgb(80, 47, 3);
+        font-family:none;
+        font-weight:bold;
+        border-radius:7px;
+    }
+    .contactuspage .input{
+        display:block;
+        height:44px;
+        width:70%;
+        padding-left:14px;
+        font-size:19px;
+        border-color:rgb(241, 239, 228);
+    }
+    .contactuspage .input:hover{
+        background:rgb(240, 235, 224);
+        border-color:rgb(59, 36, 1);
+    }
+
+    .contactuspage .submit{
+        padding-bottom:6px;
+        height:40px;
+        width:100px;
+        border-radius:50px;
+        color:rgb(109, 54, 2);
+        font-weight:bold;
+        font-size:20px;
+        border:2px solid rgb(109, 54, 2);
+        border-radius:7px;
+    }
+    .submit:hover{
+        background-color:rgb(109, 54, 2);
+        color:rgb(233, 216, 193);
+    }
+    .contactuspage #back{
+        position:absolute;
+        top:20px;
+        right:20px;
+        padding:0px 4px 0px 4px;
+        font-weight:bold;
+        color:rgb(29, 13, 1);
+        border:1px solid rgb(29, 13, 1);
+        border-radius:8px;
+    }
+    #back:hover{
+        border:none;
+
+    }
+
+    .aboutuspage{
+        visibility:hidden;
+        position:absolute;
+        top:0;
+        left:0;
+        height:100%;
+        width:100%;
+        background-color: rgb(235, 231, 225);
+    }
+    .aboutusno{
+        visibility:visible;
+    }
+    .abo-us{
+        padding-left:20px;
+        font-size:44px;
+        color:rgb(71, 29, 0);
+        margin-bottom:30px;
+        font-family:none;
+        font-weight:bold;
+    }
+    .owner-img{
+        height:120px;
+        width:120px;
+        margin-left:30px;
+        border-radius:50%;
+        display:inline-block;
+
+    }
+    .p1{
+        display:inline-block;
+        padding-left:20px;
+        font-size:22px;
+        color:rgb(51, 18, 2);
+    }
+    .p2{
+        margin-top:20px;
+        padding-left:40px;
+        font-size:22px;
+        color:rgb(51, 18, 2);
+    }
+    .p3, .p4{
+        padding-left:40px;
+        font-size:22px;
+        color:rgb(51, 18, 2);
+    }
+    .btn-back{
+        position:absolute;
+        top:20px;
+        right:20px;
+        padding:0px 4px 0px 4px;
+        border:1px solid black;
+        border-radius:6px;
+        font-weight:bold;
+        color:rgb(63, 31, 2);
+    }
+    .btn-back:hover{
+        border:none;
+    }
+     
+    .menubar{
+        position:relative;
+        margin-top:717px;
+        padding-bottom:50px;
+        width:100%;
+        z-index:10;
+        background-color: rgb(226, 186, 140);
+        transition:transform 1.2s ease-out;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    .menuhead{
+        font-family: "Abril Fatface", serif;
+        height:80px;
+        background-color: rgb(231, 221, 195);
+        position:sticky;
+        top:-24px;
+        z-index: 10;
+        color:rgb(32, 2, 2);
+        font-weight:bolder;
+        font-size:44px;
+        padding-top:14px;
+        padding-left:12px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    .title{
+        padding-left:14px;
+        font-size:44px;
+        font-family: "Pacifico", cursive;
+    }
+    #prev, #next{
+        color:rgb(236, 155, 4);
+        
+    }
+    .milk{
+        padding-top:80px;
+        width:100%;
+    }
+    .icecream{
+        padding-top:70px;
+        width:100%;
+    }
+    .chocklet{
+        padding-top:70px;
+        width:100%;
+    }
+    .bhiskit{
+        padding-top:70px;
+        width:100%;
+    }
+    .juce{
+        padding-top:70px;
+        width:100%;
+    }
+    .swiper{
+        height:500px;
+        width:90%;
+        border-radius:40px;
+        border:2px solid black;
+    }
+    .p-name{
+        position:absolute;
+        top:20px;
+        left:20px;
+        font-size:33px;
+        font-weight:bold;
+        color:rgb(243, 218, 184);
+        font-family: "Architects Daughter", cursive;
+    }
+}
